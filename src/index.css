@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url(https://fonts.googleapis.com/css?family=Monda:regular,500,600,700);
+
+* {
+  color: white;
+  font-family: Monda, Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/bg-purple.jpg);
+  min-height: 100vh;
+}
+
+.bg-fuchsia-1000 {
+  background-color: rgba(179, 33, 246, 0.09);
+}
+
+.bg-fuchsia-1100 {
+  background-color: #321B43;
+}
