@@ -62,7 +62,7 @@ function App() {
 
   return (
     <>
-      <section className="h-auto md:h-140 bg-fuchsia-1000 flex justify-between flex-col-reverse md:flex-row md:items-center w-xs md:w-xl lg:w-3xl rounded-4xl p-14 box-border">
+      <section className="h-auto md:h-140 bg-fuchsia-1000 flex justify-between flex-col-reverse md:flex-row md:items-center w-auto md:w-xl lg:w-3xl rounded-4xl p-5 lg:p-14 md:box-content lg:box-border">
         {/* QR CODE */}
         <div className="flex flex-col items-center justify-center box-border">
           {/* <p className="text-4xl w-50 text-center mb-15">Here is your QR Code</p> */}
@@ -75,7 +75,7 @@ function App() {
             )}
           </div>
           <Button onClick={downloadQr} disabled={!qr}>
-              Download
+            Download
           </Button>
         </div>
 
@@ -84,7 +84,7 @@ function App() {
           <h1 className="mb-5 md:mb-17">
             <img className="" src="/logo.svg" alt="Logo" />
           </h1>
-          <form className="flex flex-col items-center justify-center mb-25">
+          <form className="flex flex-col items-center justify-center md:mb-25">
             <label htmlFor="" className="flex flex-col mb-3">
               <p className="mb-1">Submit URL or text</p>
               <input
@@ -116,7 +116,10 @@ function App() {
             </label>
             <Button onClick={() => generateQr()}>Generate</Button>
           </form>
-          <a href="" className="ml-auto">
+          <a
+            href="https://github.com/RomanMartseniuk/qr-code-generator"
+            className="ml-auto hidden md:block"
+          >
             <img src="/gh.png" alt="GitHub" />
           </a>
         </div>

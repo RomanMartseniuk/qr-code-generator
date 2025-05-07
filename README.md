@@ -11,7 +11,7 @@ This is a simple React-based web application that allows users to generate and d
 
 ## Links
 - [GitHub Repo](https://github.com/RomanMartseniuk/qr-code-generator)
-- [Live Demo]()  
+- [Live Demo](https://qr-code-generator-six-tau.vercel.app/)  
 
 ## 🚀 Getting Started
 

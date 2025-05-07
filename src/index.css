@@ -15,9 +15,14 @@ body {
 }
 
 .bg-fuchsia-1000 {
-  background-color: rgba(179, 33, 246, 0.09);
+  }
+
+@media (min-width: 767.98px) {
+  .bg-fuchsia-1000 {
+    background-color: rgba(179, 33, 246, 0.09);
+  }
 }
 
 .bg-fuchsia-1100 {
-  background-color: #321B43;
+  background-color: #321b43;
 }
